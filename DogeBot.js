@@ -2187,7 +2187,7 @@ break
 //----> NSFW FEATURES <----//
 
 case 'hentaisearch': case 'nhentai':{
-	if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂')
+	if (!isGroup) return reply('to enable this you need add me in a group first lol ←_←')
 if (!isNsfw) return reply(mess.only.nsfw)
     if (args.length == 0) return reply(`Example: ${prefix + command} 344253`)
     henid = args[0]
