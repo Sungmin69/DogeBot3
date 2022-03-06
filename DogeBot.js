@@ -81,7 +81,7 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 //══════════[ Developer Number ]══════════//
 
 developerNo = '918822469980'
-developerName= 'SungMin'
+developerName= '🦄Dream Guy Xeon'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -1002,8 +1002,6 @@ ${gaya2} ${prefix}jedagjedugml
 ${gaya2} ${prefix}jedagjedugpubg
 ${gaya2} ${prefix}storywa
 ${gaya2} ${prefix}storygalau
-${gaya2} ${prefix}storytruk
-${gaya2} ${prefix}storybus
 ${gaya2} ${prefix}storyanime`
 DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}abcde`, buttonText: { displayText: '\n\nAKU ADALAH GAY' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
@@ -1014,7 +1012,6 @@ menu =
 
 ${gaya2} ${prefix}asupan
 ${gaya2} ${prefix}asupanloli
-${gaya2} ${prefix}hijaber
 ${gaya2} ${prefix}bocil
 ${gaya2} ${prefix}rikagusriani
 ${gaya2} ${prefix}santuy
@@ -1480,8 +1477,8 @@ case 'payment':
 gambar = fs.readFileSync('./media/doged.jpg')
 menunya = `*「 PAYMENT 」*
 
-• Note: we haven't started the service yet :P
-• you can send the money in this paytm no.- 8822469980`
+• *payment method*
+• you can send the money in this paytm no. : 8822469980`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 }
@@ -2187,7 +2184,7 @@ break
 //----> NSFW FEATURES <----//
 
 case 'hentaisearch': case 'nhentai':{
-	if (!isGroup) return reply('to enable this you need add me in a group first lol ←_←')
+	if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂')
 if (!isNsfw) return reply(mess.only.nsfw)
     if (args.length == 0) return reply(`Example: ${prefix + command} 344253`)
     henid = args[0]
@@ -2229,7 +2226,7 @@ case 'pussy':
 case 'thighs':
 case 'yuri':
 
-if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂')
+if (!isGroup) return reply('Bullshit! \nIts better to just be in the group so that everyone will be sinned 😂')
 if (!isNsfw) return reply(mess.only.nsfw)
 anu23 = await fetchJson(`https://apidhani.herokuapp.com/api/nsfw/${command}?apikey=${dhakey}`)
 buffer = await getBuffer(anu23.result)
@@ -2245,7 +2242,7 @@ type: 1,
 ]);
 break
 					case 'bokep':
-					if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂')
+					if (!isGroup) return reply('Bullshit! \nIts better to just be in the group so that everyone will be sinned 😂')
 if (!isNsfw) return reply(mess.only.nsfw)
 reply(mess.wait)
 get_result = await getBuffer(`${porn1}/api/bokep?apikey=RakuKeyTod`)
@@ -2275,7 +2272,7 @@ break
                 case 'biganimetiddies':
                 case 'animebellybutton':
                 case 'hentai4everyone':
-                if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂')
+                if (!isGroup) return reply('Bullshit! \nIts better to just be in the group so that everyone will be sinned 😂')
 if (!isNsfw) return reply(mess.only.nsfw)
                 reply(mess.wait)
                     await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${Lolhuman}`).then((gambar) => {
@@ -2316,7 +2313,7 @@ if (!isNsfw) return reply(mess.only.nsfw)
                 case 'pussy_jpg':
                 case 'kemonomimi':
                 case 'nsfw_avatar':
-                if (!isGroup) return reply('Bullshit! there is a child po*n\nIts better to just be in the group so that everyone will be sinned 😂')
+                if (!isGroup) return reply('Bullshit! \nIts better to just be in the group so that everyone will be sinned 😂')
 if (!isNsfw) return reply(mess.only.nsfw)
                 reply(mess.wait)
                     getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=${Lolhumanbykur}`).then((gambar) => {
@@ -2360,7 +2357,7 @@ just give credit / add in tqtq
                 case 'goldplaybutton':          
                 case 'silverplaybutton':          
                 case 'freefire':          
-                    if (args.length == 0) return reply(`Example: ${prefix + command} Xeon`)
+                    if (args.length == 0) return reply(`Example: ${prefix + command} SungMin`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${lolkey}&text=${ini_txt}`).then((gambar) => {
                         DogeXeonOP.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Here you go!`, quoted : mek}) 
@@ -2761,7 +2758,7 @@ DogeXeonOP.sendMessage(from, girlnekoooo, image, {caption: `Here u go!😛`, quo
 break
                          case 'wolf3':
                          
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} SungMin*`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anuwolf3 = await getBuffer(`${ApiZeks}/api/wolflogo?apikey=${zeksApikey}&text1=zeeoneofc&text2=${F}`)
@@ -2769,7 +2766,7 @@ break
                    break
                           case 't3d':
                           
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} SungMin*`)
                    F = body.slice(5)
                    reply(mess.wait)
                    anut3d = await getBuffer(`${ApiZeks}/api/text3dbox?apikey=${zeksApikey}&text=${F}`)
@@ -2777,7 +2774,7 @@ break
                    break
        case 'logoa':
        
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} SungMin&lol*`)
                    var F = body.slice(7)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2787,7 +2784,7 @@ break
                    break
        case 'phlogo':  
        
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} SungMin&lol*`)
                    var F = body.slice(9)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2797,7 +2794,7 @@ break
                    break
        case 'marvel3':
        
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} SungMin&lol*`)
                    var F = body.slice(8)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -2806,21 +2803,21 @@ break
                    DogeXeonOP.sendMessage(from, anumrvl3, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'leavest':  
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} SungMin*`)
                    F = body.slice(9)
                    reply(mess.wait)
                    anulvst = await getBuffer(`${ApiZeks}/api/leavest?text=${F}&apikey=${zeksApikey}`)
                    DogeXeonOP.sendMessage(from, anulvst, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break                   
        case 'notewrite':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} SungMin*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anunw = await getBuffer(`${ApiZeks}/api/nulis?text=${F}&apikey=${zeksApikey}`)
                    DogeXeonOP.sendMessage(from, anunw, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'neon2':
-                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} Xeon*`)
+                   if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} SungMin*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anunion2 = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${F}`)
@@ -2868,7 +2865,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `Sungmin se mang 🌚`
+scsell = `*Sung min se mang 🐦`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
@@ -3488,8 +3485,8 @@ case 'memegenerator': case 'memegen':{
 										reply(mess.wait)
 										var teks1 = q.split('|')[0] ? q.split('|')[0] : ''
 										var teks2 = q.split('|')[1] ? q.split('|')[1] : ''
-										var enmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-									   var mediiia = await DogeXeonOP.downloadMediaMessage(enmedia)
+										var enmediaokekek = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+									   var mediiia = await DogeXeonOP.downloadMediaMessage(enmediaokekek)
 										var njay = await uploadImages(mediiia)
 										var resu = await getBuffer(`https://api.memegen.link/images/custom/${teks1}/${teks2}.png?background=${njay}`)
 										DogeXeonOP.sendMessage(from, resu, image, {caption:'.stikerin bang', thumbnail: Buffer.alloc(0), quoted: mek})
@@ -3502,13 +3499,13 @@ case 'memegenerator': case 'memegen':{
 									break
  	case 'stickermeme': case 'memesticker': case 'memestick': case 'stickmeme': case 'stcmeme': case 'smeme':{
 						if (args.length < 1) return reply(`Send orders *${prefix + command}* DogeBot`)
-									if (q.includes('|')) return reply(`Reply to an image with a caption, For Example *${prefix + command}* Xeon`)
+									if (q.includes('|')) return reply(`Reply to an image with a caption, For Example *${prefix + command}* SungMin`)
 									try {
 										if (!isQuotedImage) return reply(`Reply to an image!`)
 										reply(mess.wait)
 										var teks2 = args.join(' ')
-										var enmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-										var mediia = await DogeXeonOP.downloadMediaMessage(enmedia)
+										var enmedialel = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+										var mediia = await DogeXeonOP.downloadMediaMessage(enmedialel)
 										var njay = await uploadImages(mediia)
 										var resu = `https://api.memegen.link/images/custom/-/${teks2}.png?background=${njay}`
 										sendStickerFromUrl(from,`${resu}`)	
@@ -3523,8 +3520,8 @@ case 'takesticker':
 					case 'take':
 						if (!isQuotedSticker) return reply(`Reply sticker with caption *${prefix}takestick name|author*`)
 						ppp = `${args.join(' ')}`
-						const encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-						const media2 = await DogeXeonOP.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
+						const encmediaoo1 = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+						const media2 = await DogeXeonOP.downloadAndSaveMediaMessage(encmediaoo1, `./sticker/${sender}`)
 						const packname = ppp.split('|')[0]
 						const author = ppp.split('|')[1]
 						exif.create(packname, author, `takestick_${sender}`)
@@ -3539,8 +3536,8 @@ case 'stickerwm':
 					case 'swm':
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							ppp = `${args.join(' ')}`
-							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-							const media = await DogeXeonOP.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
+							const encmedia9191 = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+							const media = await DogeXeonOP.downloadAndSaveMediaMessage(encmedia9191, `./sticker/${sender}`)
 							const packname1 = ppp.split('|')[0]
 							const author1 = ppp.split('|')[1]
 							exif.create(packname1, author1, `stickwm_${sender}`)
@@ -3570,8 +3567,8 @@ case 'stickerwm':
 						} else if ((isMedia && mek.message.videoMessage.fileLength < 10000000 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.fileLength < 10000000)) {
 							wmsti = body.slice(11)
 							if (!wmsti.includes('|')) return reply(`Send a picture or reply to an image with a caption *${prefix}stickerwm nama|author*`)
-							const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-							const media = await DogeXeonOP.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
+							const encmediaokekak = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+							const media = await DogeXeonOP.downloadAndSaveMediaMessage(encmediaokekak, `./sticker/${sender}`)
 							const packname1 = wmsti.split('|')[0]
 							const author1 = wmsti.split('|')[1]
 							exif.create(packname1, author1, `stickwm_${sender}`)
@@ -3619,8 +3616,8 @@ case 'sticker':
 case 'stiker':
 
 if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
-const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-const media = await DogeXeonOP.downloadAndSaveMediaMessage(encmedia)
+const encmedialoli = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+const media = await DogeXeonOP.downloadAndSaveMediaMessage(encmedialoli)
 ran = '666.webp'
 await ffmpeg(`./${media}`)
 .input(media)
@@ -3642,8 +3639,8 @@ fs.unlinkSync(ran)
 .toFormat('webp')
 .save(ran)
 } else if ((isMedia && mek.message.videoMessage.seconds < 11 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.seconds < 11) && args.length == 0) {
-const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-const media = await DogeXeonOP.downloadAndSaveMediaMessage(encmedia)
+const encmedialoli22 = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+const media = await DogeXeonOP.downloadAndSaveMediaMessage(encmedialoli22)
 ran = '999.webp'
 reply(mess.wait)
 await ffmpeg(`./${media}`)
@@ -3680,8 +3677,8 @@ reply(mess.wait)
 var teks1 = q.split('|')[0] ? q.split('|')[0] : ''
 var teks2 = q.split('|')[1] ? q.split('|')[1] : ''
 var imgbb = require('imgbb-uploader')
-var enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
-var media = await DogeXeonOP.downloadAndSaveMediaMessage(enmedia)
+var enmediahe1 = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+var media = await DogeXeonOP.downloadAndSaveMediaMessage(enmediahe1)
 var njay = await imgbb('520bd6f6209077d1777c2a4f20c509c2', media)
 var resu = await getBuffer(`https://api.memegen.link/images/custom/${teks1}/${teks2}.png?background=${njay.display_url}`)
 DogeXeonOP.sendMessage(from, resu, image, {quoted: mek})
@@ -3787,14 +3784,14 @@ case 'stupid':
 					mentions(teks, jds, true)
 					break
 					                        case 'uglycheck':
-					// source code by xeon⛔
+					// source code by SungMin⛔
                   sange = body.slice(1)
 					const sang =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const nge = sang[Math.floor(Math.random() * sang.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+sange+'*\n\nAnswer: '+ nge+'%', text, { quoted: mek })
 					break
                 case 'gaycheck':
-					// source code by xeon⛔
+					// source code by SungMin⛔
                   gayy = body.slice(1)
 					const gay =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const yag = gay[Math.floor(Math.random() * gay.length)]
@@ -3802,28 +3799,28 @@ case 'stupid':
 					break
                 case 'lesbicheck':
                 case 'lesbiancheck':
-					// source code by xeon⛔
+					// source code by SungMin⛔
                   lesbii = body.slice(1)
 					const lesbi =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const bi = lesbi[Math.floor(Math.random() * lesbi.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+lesbii+'*\n\nAnswer : '+ bi+'%', text, { quoted: mek })
 					break
                 case 'handsomecheck':
-					// source code by xeon⛔
+					// source code by SungMin⛔
 ganteng = body.slice(1)
 					const gan =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+ganteng+'*\n\nAnswer : '+ teng+'%', text, { quoted: mek })
 					break
 		case 'beautycheck':
-					// source code by xeon⛔
+					// source code by SungMin⛔
 cantik = body.slice(1)
 					const can =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+cantik+'*\n\nAnswer : '+ tik+'%', text, { quoted: mek })
 					break
 		case 'charactercheck':
-					// source code by xeon⛔
+					// source code by SungMin⛔
 watak = body.slice(1)
 					const wa =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const tak = wa[Math.floor(Math.random() * wa.length)]
@@ -3903,7 +3900,7 @@ watak = body.slice(1)
     "shout you bastard in front of your mom/papa",
     "change the name to i am idiot for 24 hours",
     "slap urself firmly and send the sound of slap through voice note😂",
-    "say i love the bot owner xeon through voice note",
+    "say i love the bot owner SungMin through voice note",
     "send your gf/bf pic here",
     "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
     "breakup with your best friend for 5hrs without telling him/her that its a dare",
@@ -3992,7 +3989,7 @@ watak = body.slice(1)
     "Mention the incident that makes you hurt that you still remember",
     "what achievements have you got this year?",
     "what was your worst habit at school?",
-    "do you love the bot creator, xeon?ðŸ¦„",
+    "do you love the bot creator, SungMin?ðŸ¦„",
     "have you ever thought of taking revenge from ur teacher?",
     "do you like current prime minister of ur country",
     "you non veg or veg",
@@ -4025,8 +4022,8 @@ case 'bc':
              if (args.length < 1) return reply('Where is the text?')
              anu100 = await DogeXeonOP.chats.all()
              if (isMedia && !DogeXeonOP.message.videoMessage || isQuotedImage) {
-             const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(DogeXeonOP).replace('quotedM','m')).message.extendedTextMessage.contextInfo : DogeXeonOP
-             bc100 = await DogeXeonOP.downloadMediaMessage(encmedia)
+             const encmediaboomb = isQuotedImage ? JSON.parse(JSON.stringify(DogeXeonOP).replace('quotedM','m')).message.extendedTextMessage.contextInfo : DogeXeonOP
+             bc100 = await DogeXeonOP.downloadMediaMessage(encmediaboomb)
              for (let _ of anu100) {
              DogeXeonOP.sendMessage(_.jid, bc100, image, {quoted: fgi, caption: `*「 Doge Bot Broadcast 」*\n\n${body.slice(4)}`})
 }
@@ -4055,22 +4052,22 @@ if (!isOwner && !mek.key.fromMe) return reply(mess.only.owner)
 if (args.length < 1) return reply('The text?')
 anubc2 = await DogeXeonOP.chats.all()
 if (isMedia && !mek.message.videoMessage || isQuotedImage) {
-const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-buff = await DogeXeonOP.downloadMediaMessage(encmedia)
+const encmedia12345 = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+buff = await DogeXeonOP.downloadMediaMessage(encmedia12345)
 for (let _ of anubc2) {
 DogeXeonOP.sendMessage(_.jid, buff, image, { viewOnce:true, caption: `${body.slice(4)}`})
 }
 reply(`Broadcast success ${body.slice(4)}`)
 } else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
-const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-buff = await DogeXeonOP.downloadMediaMessage(encmedia)
+const encmediaki = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+buff = await DogeXeonOP.downloadMediaMessage(encmediaki)
 for (let _ of anubc2) {
 DogeXeonOP.sendMessage(_.jid, buff, video, { viewOnce:true, caption: `${body.slice(4)}`})
 }
 reply(`Broadcast success ${body.slice(4)}`)
 } else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
-const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-buff = await DogeXeonOP.downloadMediaMessage(encmedia)
+const encmediadirk = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+buff = await DogeXeonOP.downloadMediaMessage(encmediadirk)
 for (let _ of anubc2) {
 DogeXeonOP.sendMessage(_.jid, buff, video, { mimetype: Mimetype.gif, quoted: finv, contextInfo: { forwardingScore: 508, isForwarded: true}, caption: `${body.slice(4)}` })
 }
@@ -4087,8 +4084,8 @@ case 'bcgc':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.owner)
 if (args.length < 1) return reply('Where is the text? ?')
 if (isMedia && !mek.message.videoMessage || isQuotedImage) {
-const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-bcgc = await DogeXeonOP.downloadMediaMessage(encmedia)
+const encmediabcgc = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+bcgc = await DogeXeonOP.downloadMediaMessage(encmediabcgc)
 for (let _ of groupMembers) {
 DogeXeonOP.sendMessage(_.jid, bcgc, image, { caption: `*「 DOGE BOT BROADCAST 」*\n*Group* : ${groupName}\n\n${body.slice(6)}` })
 }
@@ -4114,8 +4111,8 @@ case 'setbotpp':
 case 'setppbot':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.owner)
 if (!isQuotedImage) return reply(`Send a picture with a caption ${prefix}setppbot or tag images that have already been sent`)
-enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
-media = await DogeXeonOP.downloadAndSaveMediaMessage(encmedia, './database/sampah/media_user')
+enmediaheheh = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
+media = await DogeXeonOP.downloadAndSaveMediaMessage(encmediaheheh, './database/sampah/media_user')
 await DogeXeonOP.updateProfilePicture(botNumber, media)
 reply('Thank you for the new profile photo, my dear owner 😚')
 break
@@ -4659,8 +4656,8 @@ if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins && !mek.key.fromMe) return reply(mess.only.admin)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 if (isQuotedImage) {
-let encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-let media = await DogeXeonOP.downloadMediaMessage(encmedia)
+let encmediasetppgc = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+let media = await DogeXeonOP.downloadMediaMessage(encmediasetppgc)
 DogeXeonOP.updateProfilePicture(from, media)
 .then((res) => reply(jsonformat(res)))
 .catch((err) => reply(jsonformat(err)))
