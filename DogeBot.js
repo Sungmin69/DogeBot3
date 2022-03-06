@@ -1480,8 +1480,8 @@ case 'payment':
 gambar = fs.readFileSync('./media/doged.jpg')
 menunya = `*「 PAYMENT 」*
 
-• Note: Talk to the owner before payment
-• FamPay : _Please scan the qr above_`
+• Note: we haven't started the service yet :P
+• you can send the money in this paytm no.- 8822469980`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 }
